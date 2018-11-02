@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="c.b.a.organizer.TaskActivity">
+
+    <TextView
+        android:id="@+id/tv_tittle_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/tv_task"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_tittle_task"
+        android:layout_marginStart="10dp"
+
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_tittle_descricription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_name"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginTop="27dp"
+        android:text="@string/tv_desc"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_name"
+        android:layout_below="@+id/tv_tittle_descricription"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_task_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_description"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="@string/btn_begin"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_task_postpone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_description"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:padding="20dp"
+        android:text="@string/btn_postpone"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_task_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_description"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:layout_toStartOf="@id/btn_task_postpone"
+        android:layout_marginEnd="15dp"
+        android:padding="20dp"
+        android:text="@string/btn_done"
+        android:textSize="20sp" />
+
+</RelativeLayout>

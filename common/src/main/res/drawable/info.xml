@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="490.0"
+    android:viewportHeight="490.0">
+
+    <path
+        android:fillColor="#d34615"
+        android:pathData="M460 240c0,-122 -98,-220 -220,-220 -122,0 -220,98 -220,220 0,122 98,220 220,220 122,0 220,-98 220,-220zm-190 -95c0,-14 -11,-25 -25,-25 -14,0 -25,11 -25,25 0,14 11,25 25,25 14,0 25,-11 25,-25zm30 205l-30 0 0 -160 -80 0 0 20 30 0 0 140 -30 0 0 20 110 0 0 -20zm-260 -110c0,-111 89,-200 200,-200 111,0 200,89 200,200 0,111 -89,200 -200,200 -111,0 -200,-89 -200,-200z" />
+</vector>

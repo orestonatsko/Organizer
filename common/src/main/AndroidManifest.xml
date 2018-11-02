@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ua.com.info.common">
+
+    <application>
+        <activity
+            android:name=".ReconnectMessage"
+            android:excludeFromRecents="true"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".ErrorMessage"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".QuestionMessage"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".InfoMessage"
+            android:theme="@style/DialogTheme" />
+    </application>
+
+</manifest>

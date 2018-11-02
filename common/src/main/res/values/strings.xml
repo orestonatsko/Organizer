@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">common</string>
+    <string name="user">Користувач:</string>
+    <string name="document_image">Документ</string>
+    <string name="report_image">Звіт</string>
+
+    <string name="dialog_message">Відсутній зв`язок з базою даних</string>
+    <string name="question_message">Some question</string>
+    <string name="error_message">Помилка!</string>
+    <string name="info_message">Інформація!</string>
+    <string name="dialog_repeat">Повторити</string>
+    <string name="dialog_cancel">Скасувати</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_yes">Так</string>
+    <string name="dialog_no">Ні</string>
+
+    <string name="warning">exclamation_mark</string>
+    <string name="question">question mark</string>
+    <string name="info">info mark</string>
+
+
+    <string name="connectDB">Під\'єднання до сервера…</string>
+    <string name="item_icon">Зображення</string>
+
+
+</resources>

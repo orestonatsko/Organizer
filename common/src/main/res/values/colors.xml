@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="panel">#053eca</color>
+    <color name="primary_dark_material_light" tools:override="true">#181f96</color>
+    <color name="info">#fdfcea</color>
+    <color name="black">#000000</color>
+    <color name="black_light">#8f000000</color>
+    <color name="white">#ffffff</color>
+    <color name="app_panel">#217a88</color>
+    <color name="app_background">#d9dada</color>
+
+</resources>

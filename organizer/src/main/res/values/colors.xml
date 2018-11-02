@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="Фон">#ffffff</color>
+    <color name="ФонБлоку">#eeeeee</color>
+    <color name="ФонПанелі">#333333</color>
+    <color name="ФонПанельЗаголовок">#000000</color>
+    <color name="ФонПідказки">#2c2c2c</color>
+    <color name="ФонПопередження">#efb73e</color>
+    <color name="ФонПомилки">#df382c</color>
+    <color name="ФонІнформації">#772953</color>
+    <color name="ФонПідтвердження">#38b44a</color>
+    <color name="ФонБазовий">#e95420</color>
+
+    <color name="Текст">#000000</color>
+    <color name="ТекстПриглушений">#888888</color>
+    <color name="ТекстБазовий">#ac3911</color>
+    <color name="ТекстПідтвердження">#356635</color>
+    <color name="ТекстПопередження">#a47e3c</color>
+    <color name="ТекстІнформації">#2d6987</color>
+    <color name="ТекстПомилки">#953b39</color>
+
+    <!--Кольори-->
+    <color name="R">#FFFDC4C0</color>
+    <color name="G">#FF9CFFAA</color>
+    <color name="Y">#FFFFE9B9</color>
+
+    <color name="RD">#FFDCC9CB</color>
+    <color name="GD">#FFB2DCB8</color>
+    <color name="YD">#FFEADFCA</color>
+
+    <color name="ОсновнийРамка">#356635</color>
+    <color name="IconBrush">#ac3911</color>
+
+    <color name="ProgressColor">#2d6987</color>
+    <color name="BackgroundProgressColor">#FFABE2FF</color>
+
+
+    <color name="swipe_refresh_color_1">#1138c9</color>
+    <color name="swipe_refresh_color_2">#426cff</color>
+    <color name="swipe_refresh_color_3">#fb8e7a</color>
+    <color name="swipe_refresh_color_4">#ff7faa</color>
+
+    <color name="dialog_bakcground_color">#ccccff</color>
+</resources>

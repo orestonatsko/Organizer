@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="c.b.a.organizer.TaskReportActivity">
+
+    <TextView
+        android:id="@+id/tv_tittle_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Текст"
+        android:textSize="30sp"
+        tools:text="Виконана робота" />
+
+    <EditText
+        android:id="@+id/et_report"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/tv_tittle_report"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/report_border"
+        android:gravity="top"
+        android:inputType="number|text"
+        android:padding="10dp"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btn_report_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/et_report"
+        android:layout_marginEnd="8dp"
+        android:padding="15dp"
+        android:text="@string/btn_send"
+        android:textSize="20sp" />
+
+</RelativeLayout>

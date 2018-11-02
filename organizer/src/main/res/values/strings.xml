@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Органайзер</string>
+    <string name="tasks">Завдання</string>
+    <string name="all_tasks">Усі завдання</string>
+    <string name="current_tasks">Поточні завдання</string>
+    <string name="finish_tasks">Виконані завдання</string>
+
+    <string name="title_activity_task">TaskActivity</string>
+    <string name="tittle_alert_dialog">У Вас залишились незакінчені завдання</string>
+    <string name="name_btn_alert_dialog">Детальніше</string>
+    <string name="server_error">Помилка входу на сервер Перевірте ім\'я сервера</string>
+
+    <string name="menu_change_server">Змінити сервер</string>
+    <string name="menu_refresh">Оновити</string>
+
+    <string name="dialog_message">Введіть новий сервер:</string>
+    <string name="dialog_tittle">Настройки сервера</string>
+
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Відміна</string>
+    <string name="btn_repeat">Повторити</string>
+    <string name="btn_send">Відправити</string>
+
+    <string name="server_connect">Під\'єднання до сервера…</string>
+    <string name="set_server_tittle">Параметри входу на сервер</string>
+    <string name="tv_task">Завдання:</string>
+    <string name="tv_desc">Опис:</string>
+    <string name="btn_begin">Розпочати</string>
+    <string name="btn_postpone">Відкласти</string>
+    <string name="btn_done">Виконано</string>
+</resources>
